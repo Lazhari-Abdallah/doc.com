@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lazhari.tn</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+    <body background="gallery-img-03.jpg">
+        <form>
+            <fieldset >
+                <legend >Registration form</legend>
+                <table>
+                    <tr>
+                        <td>so that take this appointment ???</td>
+                       
+                        <td>
+                            for me <input type="radio" name="sexe" value="f" checked="checked">
+                             loved one <input type="radio" name="sexe" value="a">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>name</label></td>
+                        <td><input type="text" placeholder="enter your name"/> </td>
+                    </tr>
+                    <tr>
+                        <td><label>First name</label></td>
+                        <td><input type="text" placeholder="enter your first name"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td><input type="email" placeholder="enter your @ Email"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>adresse</label></td>
+                        <td><input type="text" placeholder="adresse"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>city</label></td>
+                        <td><input type="text" placeholder="city"/></td>
+                    </tr>
+                    <tr>
+                        <td><label> Postal code</label></td>
+                        <td><input type="number" placeholder="enter your first name"/></td>
+                    </tr>
+                    <tr>
+                        <td>Sexe</td>
+                        <!-- Les deux inputs radio doivent avoir le meme nom -->
+                        <td>
+                            Male <input type="radio" name="sexe" value="M" checked="checked">
+                            Feminine <input type="radio" name="sexe" value="F">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label>state</label></td>
+                        <td>
+                            <select>
+                            <option>ariana</option>
+                            <option>beja</option>
+                            <option>ben arous</option>
+                            <option>bizerte</option>
+                            <option> gabes</option>
+                            <option>gafsa</option>
+                            <option>jendouba</option>
+                            <option>kairoun</option>
+                            <option> kasserine</option>
+                            <option>kebili</option>
+                            <option>kef</option>
+                            <option>mahdia</option>
+                            <option>rbk</option>
+                        </select>
+                    </td>
+                    </tr>
+                    <td>Have you ever seen this doctor?</td>
+                       
+                    <td>
+                       yes <input type="radio" name="sexe" value="f" checked="checked">
+                        No  <input type="radio" name="sexe" value="a">
+                    </td>
+                </tr>
+                    <tr>
+                        <td><label>your comment</label></td>
+                        <td><textarea name="message" rows="2" cols="30"></textarea> </td>
+                        
+                    </tr>
+                    
+
+                      <td> <input type="button" value="send"  onclick="msg()"></td> 
+                    </form>
+                    
+                    <script>
+                    function msg() {
+                      alert("Thank you for your registration");
+                    }
+                    </script>
+                        </td> 
+</body>
+</html>
