@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lazhari.tn</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleuser.css">
     <script src="./main.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
     <body background="gallery-img-03.jpg">
+        <div id="div1">
         <form>
             <fieldset >
                 <legend >Registration form</legend>
@@ -24,11 +25,11 @@
                     </tr>
                     <tr>
                         <td><label>name</label></td>
-                        <td><input type="text" placeholder="enter your name"/> </td>
+                        <td><input type="text" id="name" placeholder="enter your name"/> </td>
                     </tr>
                     <tr>
                         <td><label>First name</label></td>
-                        <td><input type="text" placeholder="enter your first name"/></td>
+                        <td><input type="text" id="First name" placeholder="enter your first name"/></td>
                     </tr>
                     <tr>
                         <td><label>Email</label></td>
@@ -84,12 +85,12 @@
                 </tr>
                     <tr>
                         <td><label>your comment</label></td>
-                        <td><textarea name="message" rows="2" cols="30"></textarea> </td>
+                        <td><textarea name="message"  rows="2" cols="30"></textarea> </td>
                         
                     </tr>
                     
 
-                      <td> <input type="button" value="send"  onclick="msg()"></td> 
+                      <td> <input type="button" value="Make an appointment"  onclick="msg()"></td> 
                     </form>
                     
                     <script>
@@ -98,5 +99,6 @@
                     }
                     </script>
                         </td> 
+                    </div>
 </body>
 </html>
