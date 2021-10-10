@@ -1,0 +1,85 @@
+#title {
+    font-family: "Courier New", monospace;
+    font-style: italic;
+    font-style: oblique;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 2px turquoise, 0 0 25px turquoise, 0 0 5px turquoise;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px turquoise, 0 0 25px turquoise, 0 0 5px turquoise;
+}
+
+#docinfo {
+    font-family: "Helvetica", "Arial", sans-serif;
+    box-shadow: 0 2px 25px turquoise;
+    border-radius: 4px;
+    appearance: none;
+    background: transparent;
+    margin: auto;
+    width: 21%;
+    height: 27%;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    position: absolute;
+    left: 70px;
+    top: 300px;
+}
+
+#docinfo:hover {
+    background-color: turquoise;
+    color: white;
+}
+
+#inscription {
+    font-family: "Helvetica", "Arial", sans-serif;
+    box-shadow: 0 2px 25px turquoise;
+    border-radius: 4px;
+    appearance: none;
+    background: transparent;
+    margin: auto;
+    width: 21%;
+    height: 27%;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    position: absolute;
+    right: 90px;
+    top: 300px;
+}
+#inscription:hover {
+    background-color: turquoise;
+    color: white;
+}
+
+#doctitle {
+    font-family: "Courier New", monospace;
+    font-style: italic;
+    font-style: oblique;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 2px turquoise, 0 0 25px turquoise, 0 0 5px turquoise;
+    text-align: center;
+}
+
+
